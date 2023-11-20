@@ -1,0 +1,96 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#cont{
+    background-color: rgb(226, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: white;
+    width: 25%;
+    border-radius: 15px;
+    padding: 20px;
+    color: darkblue;
+    font-size: 20px;
+}
+.hehe{
+    display: block;
+}
+form h2{
+    text-align: center;
+}
+form h2:hover{
+    letter-spacing: 5px;
+    transition: 3s;
+}
+button{
+    width: 100%;
+    height: 60px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: rgb(255, 234, 0);
+    color: darkblue;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    border-bottom: 5px solid darkblue;
+}
+form label{
+    font-size: 20px;
+}
+form .haha{
+    width: 100%;
+    height: 40px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+#rf{
+    display: flex;
+    justify-content: space-between;
+}
+#rf p{
+    margin-top: 0px;
+}
+.fa-envelope{
+    position: absolute;
+    top: 53%;
+    left: 93%;
+}
+#email{
+    position: relative;
+}
+.fa-lock{
+    position: absolute;
+    top: 53%;
+    left: 93%;
+}
+#pass{
+    position: relative;
+}
+.fa-right-to-bracket{
+    position: absolute;
+    top: 35%;
+    left: 62%;
+}
+#btn{
+    position: relative;
+}
+h3{
+    color: rgb(255, 204, 0);
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+.fa-face-laugh-beam{
+    font-size: 60px;
+    padding-left: 155px;
+}
+button:hover{
+    background-color: darkblue;
+    color: yellow;
+}
