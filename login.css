@@ -1,0 +1,81 @@
+body{
+    background-image: url(./images/orange.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+    /* color: white; */
+    /* filter: blur(5px); */
+}
+.hehe,a{
+    display: block;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    background-color: orangered;
+    width: 25%;
+    border-radius: 15px;
+    padding: 20px;
+}
+form h2{
+    text-align: center;
+    /* text-transform: uppercase; */
+    
+}
+form label{
+    font-size: 20px;
+}
+form .haha{
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+form h2:hover{
+    letter-spacing: 20px;
+    transition: 3s;
+}
+form #btn{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 30%;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(12, 215, 12);
+    color: white;
+}
+#cancel{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.fa-user-secret{
+    position: absolute;
+    top: 59%;
+    left: 94%;
+}
+#user{
+    position: relative;
+}
+/* input{
+    padding-left: 30px;
+} */
+.fa-key{
+    position: absolute;
+    top: 59%;
+    left: 94%;
+}
+#pass{
+    position: absolute;
+}
